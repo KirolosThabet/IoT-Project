@@ -95,3 +95,18 @@ Machining_Process: the current machining stage being performed. Includes prepara
 
 
 Note: Some variables will not accurately reflect the operation of the CNC machine. This can usually be detected by when M1_CURRENT_FEEDRATE reads 50, when X1 ActualPosition reads 198, or when M1_CURRENT_PROGRAM_NUMBER does not read 0. The source of these errors has not been identified.
+
+
+Codes:
+
+Preprocessing2.py:
+Visualization of the 2nd preprocessing to compare before and after.
+
+Preprocessing3.py:
+Visualization of the 3rd preprocessing to compare before and after.
+
+M1.py:
+codes of all procedure done importing, preprocessing, splitting, feature extraction, Model development using Linear Regressing.
+
+M2.py:
+codes of all procedure done importing, preprocessing, splitting, feature extraction, Model development using SVM.
